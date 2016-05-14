@@ -30,5 +30,11 @@ namespace Visão
             Curso c = new Curso();
             c.Show();
         }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Aluno a = new Aluno();
+            a.Show();
+        }
     }
 }
